@@ -3,6 +3,7 @@ def call(env)
 
     time = Time.now.hour
 
+    # time <= 12 ? resp.write "Good Morning!" : resp.write "Good Afternoon!"
     if time <= 12
       resp.write "Good Morning!"
     else
